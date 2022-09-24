@@ -1,0 +1,78 @@
+#SERIES 1
+n=int(input())
+for i in range(1,n+1):
+    sum=i*i
+    print(sum,end=" ")
+#SERIES 2
+n=int(input())
+a=6
+for i in range(1,n+1):
+    print(a,end=" ")
+    res=5*i
+    a=a+res
+#SERIES 3
+n=int(input())
+a=3
+b=3
+for i in range(1,n+1):
+    print(a,end=" ")
+    a=b*a
+#SERIES 4
+n=int(input())
+a=0.5
+b=3
+for i in range(1,n+1):
+    print(a,end=" ")
+    a=b*a
+#SERIES 5n=int(input())
+a=11
+b=4
+for i in range(1,n+1):
+    mul=a**2
+    print(mul,end=" ")
+    a=a+b
+#SERIES 6
+n=int(input())
+a=0
+for i in range(1,n+1):
+    if(i%2!=0):
+        print(i*i-1,end=" ")
+    else:
+        print(i*i-2,end=" ")
+#SERIES 7
+n=int(input())
+a=1
+b=2.0
+print(a,b,end=" ")
+for i in range(3,n+1):
+    if i%2==1:
+        a=a*3
+        print(float(a),end=" ")
+    else:
+        b=b*3
+        print(float(b),end=" ")
+#SERIES 8
+n=int(input())
+a,b=4,5
+sum=0
+print(a,b,end=" ")
+sum=a+b
+for i in range(3,n+1):
+    print(sum,end=" ")
+    sum=sum+pow(i,2)
+#SERIES 9
+n=int(input())
+a=2
+for i in range(1,n+1):
+    print(a,end=" ")
+    a=a**2-1
+#SEIES 10
+n=int(input())
+x=95.0
+ctr=1
+i=20.5
+while ctr<=n:
+    print(x,end=" ")
+    x=x+i
+    i=i+2
+    ctr=ctr+1
