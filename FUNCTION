@@ -1,0 +1,15 @@
+#ARITHMETICE OPERATIONS
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+#SQAURE ROOT
+a=int(input())
+print(a**2)
+#CUBE ROOT
+a=int(input())
+print(a**3)
